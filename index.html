@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>シャゼリア☆キッス☆計算機!!!!!!!!!</title>
+</head>
+<body>
+  <header>
+    <h1>シャゼリア☆キッス☆計算機</h1>
+  </header>
+  <div class="main">
+    <img src="">
+    <div class="calc">
+      <div class="display">
+        <span id="number">0</span>
+      </div>
+      <div class="keys">
+        <ul class="row">
+          <li class="num-key" id="7">7</li>
+          <li class="num-key" id="8">8</li>
+          <li class="num-key" id="9">9</li>
+          <li class="func-key" id="divide">÷</li>
+        </ul>
+        <ul class="row">
+          <li class="num-key" id="4">4</li>
+          <li class="num-key" id="5">5</li>
+          <li class="num-key" id="6">6</li>
+          <li class="func-key" id="multiply">×</li>
+        </ul>
+        <ul class="row">
+          <li class="num-key" id="1">1</li>
+          <li class="num-key" id="2">2</li>
+          <li class="num-key" id="3">3</li>
+          <li class="func-key" id="substract">-</li>
+        </ul>
+        <ul class="row">
+          <li class="func-key" id="ca">CA</li>
+          <li class="num-key" id="0">0</li>
+          <li class="func-key" id="equal">=</li>
+          <li class="func-key" id="add">+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>3+3+3は9千兆パワー!!!<br>君はもう、あの輝きを見たか...?</p>
+  </footer>
+  <script type="text/javascript" src="bundle/index.js"></script>
+</body>
+</html>
+
+<style>
+body {
+  height: 100vh;
+  background-image: url("img/background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+header {
+  overflow: hidden;
+}
+
+header h1 {
+  margin: 30px;
+  color: white;
+  text-align: center;
+}
+
+.main {
+  margin: 30px 0;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+}
+
+.calc {
+  width: 300px;
+  margin: auto;
+  background-color: white;
+  border: solid 1px black;
+  overflow: hidden;
+}
+
+.display {
+  height: 80px;
+  margin: 20px;
+  background-color: silver;
+  border: solid 1px black;
+  text-align: right;
+}
+
+.display span {
+  line-height: 80px;
+  font-size: 20px;
+}
+
+.keys {
+  margin: 20px;
+}
+
+.keys ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.keys li {
+  width: 10%;
+  padding: 10px;
+  margin: 5px;
+  border: solid 1px black;
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+</style>
